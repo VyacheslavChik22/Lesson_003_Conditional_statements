@@ -43,9 +43,9 @@ public class Lesson_003_Conditional_statements {
 
         System.out.println("\n*** Задание 3 \n");
 
-        int year = 2024; // Переменная для хранения числового значения года
+        int year = 1900; // Переменная для хранения числового значения года
         // год нужно разделить на 4 и если остаток будет равен 0 то год високосный!
-        if(year % 4 == 0 ){
+        if((year / 100)% 4 == 0 ){
             System.out.println(year + " год является високосным.");
         }else{
             System.out.println(year + " год не является високосным.");
